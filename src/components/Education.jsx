@@ -1,0 +1,3 @@
+import { GraduationCap } from 'lucide-react';
+import { education } from '../data/portfolioData';
+export default function Education(){return <section id="education" className="section container"><div className="section-heading"><p className="eyebrow">05 — EDUCATION</p><h2>The foundation<br/><span>behind the code.</span></h2></div><div className="education-list">{education.map((item,i)=><article className="education-item" key={item.degree}><div className="education-icon"><GraduationCap size={21}/></div><div className="education-main"><h3>{item.degree}</h3><p>{item.institution}</p></div><div className="education-result"><span>{item.year}</span><b>{item.result}</b></div><span className="education-index">0{i+1}</span></article>)}</div></section>}
