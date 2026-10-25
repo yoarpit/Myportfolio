@@ -3,7 +3,7 @@ export const profile = {
   role: 'Software Developer · MCA Student',
   location: 'Indore, India',
   email: 'arpitjayshwal707@gmail.com',
-  photo: 'public/images/myimage.jpeg', // After adding public/images/profile.jpg, set this to '/images/profile.jpg'.
+  photo: '/images/myimage.jpeg', // After adding public/images/profile.jpg, set this to '/images/profile.jpg'.
   github: 'https://github.com/yoarpit',
   linkedin: 'https://www.linkedin.com/in/arpit-jayshwal-288125325', 
   summary: 'I am a postgraduate Computer Applications student who enjoys building practical software—from backend APIs and web applications to low-level Linux systems. I like understanding how things work under the hood and turning ideas into useful, well-structured projects.',
